@@ -1,0 +1,25 @@
+---
+title: "Demonstration of torchsde"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Demonstration of torchsde}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This vignette is based on this notebook for the Python `torchsde`: https://github.com/google-research/torchsde/blob/master/examples/demo.ipynb
+
+```{r setup}
+library(torchsde)
+```
+
+```{r simple_example}
+
+```
